@@ -1,0 +1,6 @@
+C:\Users\alumno\Desktop\hoy\Medina.Emiliano\Test\bin\Debug\Test.dll
+C:\Users\alumno\Desktop\hoy\Medina.Emiliano\Test\bin\Debug\Test.pdb
+C:\Users\alumno\Desktop\hoy\Medina.Emiliano\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\hoy\Medina.Emiliano\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\hoy\Medina.Emiliano\Test\obj\Debug\Test.dll
+C:\Users\alumno\Desktop\hoy\Medina.Emiliano\Test\obj\Debug\Test.pdb
