@@ -1,0 +1,11 @@
+C:\Users\alumno\Desktop\hoy\Medina.Emiliano\Clase_20.TestSQL\obj\Debug\Clase_20.TestSQL.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\hoy\Medina.Emiliano\Clase_20.TestSQL\obj\Debug\Clase_20.TestSQL.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\hoy\Medina.Emiliano\Clase_20.TestSQL\bin\Debug\Clase_20.TestSQL.exe.config
+C:\Users\alumno\Desktop\hoy\Medina.Emiliano\Clase_20.TestSQL\bin\Debug\Clase_20.TestSQL.exe
+C:\Users\alumno\Desktop\hoy\Medina.Emiliano\Clase_20.TestSQL\bin\Debug\Clase_20.TestSQL.pdb
+C:\Users\alumno\Desktop\hoy\Medina.Emiliano\Clase_20.TestSQL\bin\Debug\Clase_20.EntidadesSQL.dll
+C:\Users\alumno\Desktop\hoy\Medina.Emiliano\Clase_20.TestSQL\bin\Debug\Clase_20.EntidadesSQL.pdb
+C:\Users\alumno\Desktop\hoy\Medina.Emiliano\Clase_20.TestSQL\bin\Debug\Clase_20.EntidadesSQL.dll.config
+C:\Users\alumno\Desktop\hoy\Medina.Emiliano\Clase_20.TestSQL\obj\Debug\Clase_20.TestSQL.csproj.CopyComplete
+C:\Users\alumno\Desktop\hoy\Medina.Emiliano\Clase_20.TestSQL\obj\Debug\Clase_20.TestSQL.exe
+C:\Users\alumno\Desktop\hoy\Medina.Emiliano\Clase_20.TestSQL\obj\Debug\Clase_20.TestSQL.pdb
