@@ -37,11 +37,17 @@ namespace Clase_20.EntidadesSQL
             (int)sqlDataReader["edad"]); //casteo porque devuelve object
           retorno.Add(persona);
         }
-        this._conexion.Close();
       }
       catch(Exception e)
       {
         Console.WriteLine(e.Message);
+      }
+      finally
+      {
+        if (this._conexion.State.Equals(ConnectionState.Open))
+        {
+          this._conexion.Close();
+        }
       }
       return retorno;
     }
@@ -56,17 +62,107 @@ namespace Clase_20.EntidadesSQL
       try
       {
         this._conexion.Open();
-        if (this._comando.ExecuteNonQuery() > 0)
+        if (this._comando.ExecuteNonQuery() > 0) // ExecuteNonQuery devuelve la cantidad de filas afectadas
         {
-          this._conexion.Close();
           return true;
         }
       } catch(Exception e)
-      {
-        this._conexion.Close();
+      {       
         Console.WriteLine(e.Message);
+      } finally
+      {
+        if (this._conexion.State.Equals(ConnectionState.Open))
+        {
+          this._conexion.Close();
+        }
+        
       }
       return false;
+    }
+
+    public bool ModificarPersona(Persona persona)
+    {
+      this._comando = new SqlCommand();
+      this._comando.Connection = this._conexion;
+      this._comando.CommandType = CommandType.Text;
+      this._comando.CommandText = "UPDATE Padron.dbo.Personas SET nombre = 'Francisco', apellido = 'Gomez', edad = 99 WHERE id = "
+        + persona.ID;
+      try
+      {
+        this._conexion.Open();
+        if (this._comando.ExecuteNonQuery() > 0)
+        {
+          return true;
+        }
+      }
+      catch (Exception e)
+      {
+        Console.WriteLine(e.Message);
+      }
+      finally
+      {
+        if (this._conexion.State.Equals(ConnectionState.Open))
+        {
+          this._conexion.Close();
+        }
+      }
+      return false;
+    }
+
+    public bool EliminarPersona(int id)
+    {
+      this._comando = new SqlCommand();
+      this._comando.Connection = this._conexion;
+      this._comando.CommandType = CommandType.Text;
+      this._comando.CommandText = "DELETE FROM Padron.dbo.Personas WHERE id = " + id.ToString();
+      try
+      {
+        this._conexion.Open();
+        if (this._comando.ExecuteNonQuery() > 0)
+        {
+          return true;
+        }
+      }
+      catch (Exception e)
+      {
+        Console.WriteLine(e.Message);
+      }
+      finally
+      {
+        if (this._conexion.State.Equals(ConnectionState.Open))
+        {
+          this._conexion.Close();
+        }
+      }
+      return false;
+    }
+
+    public DataTable TraerTablaPersonas()
+    {
+      DataTable dataTable = new DataTable("Personas");
+      this._comando = new SqlCommand();
+      this._comando.Connection = this._conexion;
+      this._comando.CommandType = CommandType.Text;
+
+      this._comando.CommandText = "SELECT id, nombre, apellido, edad FROM Padron.dbo.Personas";
+
+      try
+      {
+        this._conexion.Open();
+        SqlDataReader sqlDataReader = this._comando.ExecuteReader();
+        dataTable.Load(sqlDataReader);
+      } catch(Exception e)
+      {
+        Console.WriteLine(e.Message);
+      }
+      finally
+      {
+        if (this._conexion.State.Equals(ConnectionState.Open))
+        {
+          this._conexion.Close();
+        }
+      }
+        return dataTable;
     }
   }
 }

@@ -15,6 +15,14 @@ namespace Clase_20.EntidadesSQL
     private string apellido;
     private int edad;
 
+    public string ID
+    {
+      get
+      {
+        return this.id.ToString();
+      }
+    }
+
     public string Nombre
     {
       get

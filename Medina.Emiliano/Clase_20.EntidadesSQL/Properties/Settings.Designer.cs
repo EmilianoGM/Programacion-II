@@ -26,7 +26,7 @@ namespace Clase_20.EntidadesSQL.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAB5PC26\\SQLEXPRESS;Initial Catalog=Padron;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAB5PC27\\SQLEXPRESS;Initial Catalog=Padron;Integrated Security=True")]
         public string conexion_bd {
             get {
                 return ((string)(this["conexion_bd"]));
