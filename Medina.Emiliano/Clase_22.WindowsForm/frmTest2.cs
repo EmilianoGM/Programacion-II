@@ -73,5 +73,10 @@ namespace Clase_22.WindowsForm
 
       manejadora.OtraSuma(delegado, 20, 11);
     }
+
+    private void frmTest2_Load(object sender, EventArgs e)
+    {
+
+    }
   }
 }

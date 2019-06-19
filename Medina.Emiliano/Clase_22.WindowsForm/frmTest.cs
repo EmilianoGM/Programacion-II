@@ -33,5 +33,10 @@ namespace Clase_22.WindowsForm
     {
       MessageBox.Show("cuadro de texto clickeado");
     }
+
+    private void frmTest_Load(object sender, EventArgs e)
+    {
+
+    }
   }
 }

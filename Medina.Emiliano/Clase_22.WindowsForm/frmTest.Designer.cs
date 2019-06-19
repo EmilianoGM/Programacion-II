@@ -41,7 +41,6 @@ namespace Clase_22.WindowsForm
             this.btnBoton.TabIndex = 0;
             this.btnBoton.Text = "button1";
             this.btnBoton.UseVisualStyleBackColor = true;
-            //this.btnBoton.Click += new System.EventHandler(this.botonMensaje);
             // 
             // lblEtiqueta
             // 
@@ -69,6 +68,7 @@ namespace Clase_22.WindowsForm
             this.Controls.Add(this.btnBoton);
             this.Name = "frmTest";
             this.Text = " ";
+            this.Load += new System.EventHandler(this.frmTest_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

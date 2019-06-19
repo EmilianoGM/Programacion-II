@@ -1,0 +1,9 @@
+C:\Users\alumno\Desktop\Entidades.Alumnos\Extensora\bin\Debug\Extensora.dll
+C:\Users\alumno\Desktop\Entidades.Alumnos\Extensora\bin\Debug\Extensora.pdb
+C:\Users\alumno\Desktop\Entidades.Alumnos\Extensora\bin\Debug\Entidades.Externa.dll
+C:\Users\alumno\Desktop\Entidades.Alumnos\Extensora\bin\Debug\Entidades.Externa.Sellada.dll
+C:\Users\alumno\Desktop\Entidades.Alumnos\Extensora\obj\Debug\Extensora.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Entidades.Alumnos\Extensora\obj\Debug\Extensora.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Entidades.Alumnos\Extensora\obj\Debug\Extensora.csproj.CopyComplete
+C:\Users\alumno\Desktop\Entidades.Alumnos\Extensora\obj\Debug\Extensora.dll
+C:\Users\alumno\Desktop\Entidades.Alumnos\Extensora\obj\Debug\Extensora.pdb

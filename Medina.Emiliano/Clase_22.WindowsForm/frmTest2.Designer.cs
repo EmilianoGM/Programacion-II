@@ -82,6 +82,7 @@ namespace Clase_22.WindowsForm
             this.Controls.Add(this.btnBoton1);
             this.Name = "frmTest2";
             this.Text = "frmTest2";
+            this.Load += new System.EventHandler(this.frmTest2_Load);
             this.ResumeLayout(false);
 
     }
