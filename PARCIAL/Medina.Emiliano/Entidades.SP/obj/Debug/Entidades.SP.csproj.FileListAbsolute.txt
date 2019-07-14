@@ -1,0 +1,6 @@
+D:\Medina.Emiliano\Entidades.SP\bin\Debug\Entidades.SP.dll
+D:\Medina.Emiliano\Entidades.SP\bin\Debug\Entidades.SP.pdb
+D:\Medina.Emiliano\Entidades.SP\obj\Debug\Entidades.SP.csprojAssemblyReference.cache
+D:\Medina.Emiliano\Entidades.SP\obj\Debug\Entidades.SP.csproj.CoreCompileInputs.cache
+D:\Medina.Emiliano\Entidades.SP\obj\Debug\Entidades.SP.dll
+D:\Medina.Emiliano\Entidades.SP\obj\Debug\Entidades.SP.pdb
